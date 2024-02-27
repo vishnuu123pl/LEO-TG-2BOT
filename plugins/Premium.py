@@ -144,6 +144,6 @@ async def plan(client, message):
     users = message.from_user.mention 
     btn = [[
 
-        InlineKeyboardButton("📲 ꜱᴇɴᴅ ᴘᴀʏᴍᴇɴᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛ ʜᴇʀᴇ", url=USERNAME)],[InlineKeyboardButton("❌ ᴄʟᴏꜱᴇ ❌", callback_data="close_data")
+        InlineKeyboardButton("📲 CONTACT", url=USERNAME)],[InlineKeyboardButton("❌ ᴄʟᴏꜱᴇ ❌", callback_data="close_data")
     ]]
     await message.reply_photo(photo="https://graph.org/file/a36b4b70f61796cfb8d5d.jpg", caption=script.PREMIUM_TXT.format(message.from_user.mention), reply_markup=InlineKeyboardMarkup(btn))
