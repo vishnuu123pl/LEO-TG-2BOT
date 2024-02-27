@@ -22,7 +22,7 @@ STREAM_SITE = (environ.get('STREAM_SITE', ''))
 STREAM_API = (environ.get('STREAM_API', ''))
 
 # add premium logs channel id
-PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', ''))
+PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001906470657'))
 
 SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/a36b4b70f61796cfb8d5d.jpg'))
 CODE = (environ.get('CODE', 'https://graph.org/file/2790ba63079bbee6b473f.jpg'))
