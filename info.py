@@ -18,8 +18,8 @@ API_HASH = environ.get('API_HASH', '8cde2475d6b0cb1162b89ebbac71a95d')
 BOT_TOKEN = environ.get('BOT_TOKEN', "6382508936:AAGwsgcHAJ5Bmk1mVoj4Adv2cfDpnZdb_pw")
 
 #stream link shortner
-STREAM_SITE = (environ.get('STREAM_SITE', 'earnpro.in'))
-STREAM_API = (environ.get('STREAM_API', '569567b8b02ad76d40f56159159b4148acc12aef'))
+STREAM_SITE = (environ.get('STREAM_SITE', ''))
+STREAM_API = (environ.get('STREAM_API', ''))
 
 # add premium logs channel id
 PREMIUM_LOGS = int(environ.get('PREMIUM_LOGS', '-1001906470657'))
