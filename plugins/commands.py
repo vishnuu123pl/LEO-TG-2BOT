@@ -55,8 +55,6 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-            
             InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help')
         ],[
             InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
@@ -124,9 +122,7 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
-            InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ 💸', callback_data="shortlink_info"),
-            
-            InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help')
+           InlineKeyboardButton('〄 Hᴇʟᴘ', callback_data='help')
         ],[
             InlineKeyboardButton('⍟ Aʙᴏᴜᴛ', callback_data='about'),
             InlineKeyboardButton('☞ Uᴘᴅᴀᴛᴇꜱ', callback_data='main_channel') 
@@ -273,7 +269,7 @@ async def start(client, message):
         is_valid = await check_token(client, userid, token)
         if is_valid == True:
             await message.reply_text(
-                text=f"<b>Hᴇʏ {message.from_user.mention}, Yᴏᴜ ᴀʀᴇ sᴜᴄᴄᴇssғᴜʟʟʏ ᴠᴇʀɪғɪᴇᴅ !\nNᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ ᴀʟʟ ᴍᴏᴠɪᴇs ᴛɪʟʟ ᴛʜᴇ ɴᴇxᴛ ᴠᴇʀɪғɪᴄᴀᴛɪᴏɴ ᴡʜɪᴄʜ ɪs ᴀғᴛᴇʀ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ.</b>",
+                text=f"<b>Hᴇʏ {message.from_user.mention}, ✅ 🧬 തങ്ങളുടെ വെരിഫിക്കേഷൻ പൂർണമായി ✅. \n\n 𝘕𝘖𝘛𝘌:- ഇനി നിങ്ങൾ ഗ്രൂപ്പിൽ പോയി ഈ Bot വഴി അടുത്ത 12 മണിക്കൂറിൽ സീരിയൽ ബട്ടണിൽ ക്ലിക്ക് ചെയ്താൽ സീരിയൽ Direct ആയി അയച്ചു തരും ✅. \n\n Group Link :- https://t.me/Asianet_Serial_vh1 </b>",
                 protect_content=True
             )
             await verify_user(client, userid, token)
@@ -293,7 +289,7 @@ async def start(client, message):
                     ], [
                         InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
                     ], [
-                        InlineKeyboardButton('💸 Buy Premium For Adz Free Movies ✅', callback_data='buy_premium')
+                        InlineKeyboardButton('💸 Buy Premium For Adz Free Serial ✅', callback_data='buy_premium')
                     ]
                 ]
             )
@@ -314,7 +310,7 @@ async def start(client, message):
         ], [
             InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
         ], [
-            InlineKeyboardButton('💸 Buy Premium For Adz Free Movies ✅', callback_data="buy_premium")
+            InlineKeyboardButton('💸 Buy Premium For Adz Free Serial ✅', callback_data="buy_premium")
         ]]
         k = await client.send_message(
             chat_id=user_id,
@@ -402,7 +398,7 @@ InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url='https://t.me/cccgffddff/9
                         ], [
                             InlineKeyboardButton('⁉️ Hᴏᴡ Tᴏ Dᴏᴡɴʟᴏᴀᴅ ⁉️', url=await get_tutorial(chat_id))
                         ], [
-                            InlineKeyboardButton('💸 Buy Premium For Adz Free Movies ✅', callback_data='buy_premium')                            
+                            InlineKeyboardButton('💸 Buy Premium For Adz Free serial ✅', callback_data='buy_premium')                            
                         ]
                     ]
                 )
