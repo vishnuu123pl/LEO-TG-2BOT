@@ -102,7 +102,9 @@ async def start(client, message):
                 InlineKeyboardButton(
                     "📢 REQUEST TO JOIN CHANNEL 📢", url=invite_link.invite_link
                 )
-            ]
+            ],[
+            InlineKeyboardButton('⤬ JOIN  HERE  AND  TRY AGAIN ⤬', url=f'https://t.me/Biggbossmalayalam_season_6')
+        ]
         ]
 
         if message.command[1] != "subscribe":
@@ -113,7 +115,7 @@ async def start(client, message):
                 btn.append([InlineKeyboardButton("🔃 TRY AGAIN 🔃", url=f"https://t.me/{temp.U_NAME}?start={message.command[1]}")])
         await client.send_message(
             chat_id=message.from_user.id,
-            text="**Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ɪɴ ᴏᴜʀ Bᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ sᴏ ʏᴏᴜ ᴅᴏɴ'ᴛ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ...\n\nIғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '📢 REQUEST TO JOIN CHANNEL 📢' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ ᴊᴏɪɴ ᴏᴜʀ ʙᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '🔃 TRY AGAIN 🔃' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ...\n\nTʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ ᴍᴏᴠɪᴇ ғɪʟᴇs...**",
+            text="**Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ɪɴ ᴏᴜʀ Bᴀᴄᴋ-ᴜᴘ ᴄʜᴀɴɴᴇʟ ɢɪᴠᴇɴ ʙᴇʟᴏᴡ sᴏ ʏᴏᴜ ᴅᴏɴ'ᴛ ɢᴇᴛ ᴛʜᴇ SERIAL ғɪʟᴇ...\n\nIғ ʏᴏᴜ ᴡᴀɴᴛ ᴛʜᴇ SERIAL ғɪʟᴇ, ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '📢 REQUEST TO JOIN CHANNEL 📢' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴀɴᴅ '⤬ JOIN  HERE  AND  TRY AGAIN ⤬', ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ '🔃 TRY AGAIN 🔃' ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ...\n\nTʜᴇɴ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ᴛʜᴇ SERIAL ғɪʟᴇs...**",
             reply_markup=InlineKeyboardMarkup(btn),
             parse_mode=enums.ParseMode.MARKDOWN
             )
@@ -415,7 +417,7 @@ InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url='https://t.me/Asianet_seri
             if not await check_verification(client, message.from_user.id) and VERIFY == True:
                 btn = [[
                     InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url='https://t.me/cccgffddff/9')
+InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url='https://t.me/Asianet_serial_HPM/329')
                 ]]
                 await message.reply_text(
                     text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !</b>",
@@ -479,7 +481,7 @@ InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url='https://t.me/cccgffddff/9
     if not await check_verification(client, message.from_user.id) and VERIFY == True:
         btn = [[
             InlineKeyboardButton("Verify", url=await get_token(client, message.from_user.id, f"https://telegram.me/{temp.U_NAME}?start=")),
-            InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url='https://t.me/cccgffddff/9')            
+            InlineKeyboardButton("Hᴏᴡ Tᴏ Vᴇʀɪғʏ", url='https://t.me/Asianet_serial_HPM/329')            
         ]]
         await message.reply_text(
             text="<b>Yᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ!\nKɪɴᴅʟʏ ᴠᴇʀɪғʏ ᴛᴏ ᴄᴏɴᴛɪɴᴜᴇ Sᴏ ᴛʜᴀᴛ ʏᴏᴜ ᴄᴀɴ ɢᴇᴛ ᴀᴄᴄᴇss ᴛᴏ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏᴠɪᴇs ᴜɴᴛɪʟ 12 ʜᴏᴜʀs ғʀᴏᴍ ɴᴏᴡ !</b>",
