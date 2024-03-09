@@ -101,7 +101,7 @@ async def start(client, message):
                     "📢 REQUEST TO JOIN CHANNEL 📢", url=invite_link.invite_link
                 )
             ],[
-            InlineKeyboardButton('⤬ JOIN  HERE  AND  TRY AGAIN ⤬', url=f'https://t.me/ASIANET_SURYA_MAZHAVILMANORAMA')
+            InlineKeyboardButton('⤬ JOIN  HERE  AND  TRY AGAIN ⤬', url=f'https://t.me/Biggbossmalayalam_season_6')
         ]
         ]
 
