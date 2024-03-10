@@ -181,9 +181,14 @@ Tɪᴘ: Sᴇʟᴇᴄᴛ "Lᴀɴɢᴜᴀɢᴇs" ᴏʀ "Sᴇᴀsᴏɴs" Bᴜᴛᴛ
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
 
-    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ: </b> <code>{file_caption}</code>\n\n
+    CAPTION = """<b>📂Fɪʟᴇɴᴀᴍᴇ: </b> {file_caption}\n\n
 
-⚙️ <b>Size: </b> <code>{file_size}</code>""" 
+⚙️ <b>Size: </b>{file_size}
+
+JOIN NOW
+https://t.me/ASIANET_SURYA_MAZHAVILMANORAMA
+https://t.me/ASIANET_SURYA_MAZHAVILMANORAMA
+https://t.me/ASIANET_SURYA_MAZHAVILMANORAMA""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>🏷 Title: <a href={url}>{title}</a>
