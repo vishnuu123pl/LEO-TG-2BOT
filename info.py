@@ -61,10 +61,10 @@ COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
 #Shortner Variables 
 VERIFY = bool(environ.get('VERIFY', True))
-TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Asianet_serial_HPM/332')
+TUTORIAL = environ.get('TUTORIAL', 'https://t.me/Asianet_serial_HPM/329')
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', True))
-SHORTLINK_URL = environ.get('SHORTLINK_URL', 'instantearn.in')
-SHORTLINK_API = environ.get('SHORTLINK_API', 'd84882575eb59ccb49313326b79484eab9bd0496')
+SHORTLINK_URL = environ.get('SHORTLINK_URL', 'publicearn.com')
+SHORTLINK_API = environ.get('SHORTLINK_API', 'f2f53890ad92447149ae0361f89b5449d5b24746')
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 
 #others 
